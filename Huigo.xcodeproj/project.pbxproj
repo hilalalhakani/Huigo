@@ -7,13 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0A977D2C77AD78000EEA7C /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A977C2C77AD78000EEA7C /* AuthenticationView.swift */; };
+		FE0A97802C79E74B000EEA7C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A977F2C79E74B000EEA7C /* SignInView.swift */; };
+		FE0A97842C7A2197000EEA7C /* HuigoTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A97832C7A2197000EEA7C /* HuigoTextFieldModifier.swift */; };
+		FE0A97862C7B9C8E000EEA7C /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A97852C7B9C8E000EEA7C /* AppRouter.swift */; };
 		FE1917BD2C5BF33400E8C384 /* HuigoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917BC2C5BF33400E8C384 /* HuigoApp.swift */; };
-		FE1917BF2C5BF33400E8C384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917BE2C5BF33400E8C384 /* ContentView.swift */; };
+		FE1917BF2C5BF33400E8C384 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917BE2C5BF33400E8C384 /* OnboardingView.swift */; };
 		FE1917C12C5BF33500E8C384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1917C02C5BF33500E8C384 /* Assets.xcassets */; };
 		FE1917C42C5BF33500E8C384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1917C32C5BF33500E8C384 /* Preview Assets.xcassets */; };
 		FE1917CE2C5BF33600E8C384 /* HuigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917CD2C5BF33600E8C384 /* HuigoTests.swift */; };
 		FE1917D82C5BF33600E8C384 /* HuigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917D72C5BF33600E8C384 /* HuigoUITests.swift */; };
 		FE1917DA2C5BF33600E8C384 /* HuigoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917D92C5BF33600E8C384 /* HuigoUITestsLaunchTests.swift */; };
+		FE1917EB2C5BF82A00E8C384 /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1917EA2C5BF82A00E8C384 /* OnboardingStep.swift */; };
+		FE1917EE2C5BF90F00E8C384 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE1917ED2C5BF90F00E8C384 /* ComposableArchitecture */; };
+		FEF3A6762C70E4B50039A87F /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6632C70E4B50039A87F /* Poppins-Black.ttf */; };
+		FEF3A6772C70E4B50039A87F /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6642C70E4B50039A87F /* Poppins-BlackItalic.ttf */; };
+		FEF3A6782C70E4B50039A87F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6652C70E4B50039A87F /* Poppins-Bold.ttf */; };
+		FEF3A6792C70E4B50039A87F /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6662C70E4B50039A87F /* Poppins-BoldItalic.ttf */; };
+		FEF3A67A2C70E4B50039A87F /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6672C70E4B50039A87F /* Poppins-ExtraBold.ttf */; };
+		FEF3A67B2C70E4B50039A87F /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6682C70E4B50039A87F /* Poppins-ExtraBoldItalic.ttf */; };
+		FEF3A67C2C70E4B50039A87F /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6692C70E4B50039A87F /* Poppins-ExtraLight.ttf */; };
+		FEF3A67D2C70E4B50039A87F /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A66A2C70E4B50039A87F /* Poppins-ExtraLightItalic.ttf */; };
+		FEF3A67E2C70E4B50039A87F /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A66B2C70E4B50039A87F /* Poppins-Italic.ttf */; };
+		FEF3A67F2C70E4B50039A87F /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A66C2C70E4B50039A87F /* Poppins-Light.ttf */; };
+		FEF3A6802C70E4B50039A87F /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A66D2C70E4B50039A87F /* Poppins-LightItalic.ttf */; };
+		FEF3A6812C70E4B50039A87F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A66E2C70E4B50039A87F /* Poppins-Medium.ttf */; };
+		FEF3A6822C70E4B50039A87F /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A66F2C70E4B50039A87F /* Poppins-MediumItalic.ttf */; };
+		FEF3A6832C70E4B50039A87F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6702C70E4B50039A87F /* Poppins-Regular.ttf */; };
+		FEF3A6842C70E4B50039A87F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6712C70E4B50039A87F /* Poppins-SemiBold.ttf */; };
+		FEF3A6852C70E4B50039A87F /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6722C70E4B50039A87F /* Poppins-SemiBoldItalic.ttf */; };
+		FEF3A6862C70E4B50039A87F /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6732C70E4B50039A87F /* Poppins-Thin.ttf */; };
+		FEF3A6872C70E4B50039A87F /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEF3A6742C70E4B50039A87F /* Poppins-ThinItalic.ttf */; };
+		FEF3A6892C70E4EE0039A87F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3A6882C70E4EE0039A87F /* Font.swift */; };
+		FEF3A68D2C70E9DD0039A87F /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3A68C2C70E9DD0039A87F /* PageIndicator.swift */; };
+		FEF3A6902C7138960039A87F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3A68F2C7138960039A87F /* WelcomeView.swift */; };
+		FEF3A6922C71392A0039A87F /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3A6912C71392A0039A87F /* AuthenticationCoordinator.swift */; };
+		FEF3A6972C713DFB0039A87F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3A6962C713DFB0039A87F /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE0A977C2C77AD78000EEA7C /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		FE0A977F2C79E74B000EEA7C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		FE0A97832C7A2197000EEA7C /* HuigoTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuigoTextFieldModifier.swift; sourceTree = "<group>"; };
+		FE0A97852C7B9C8E000EEA7C /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		FE1917B92C5BF33400E8C384 /* Huigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1917BC2C5BF33400E8C384 /* HuigoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuigoApp.swift; sourceTree = "<group>"; };
-		FE1917BE2C5BF33400E8C384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE1917BE2C5BF33400E8C384 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		FE1917C02C5BF33500E8C384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE1917C32C5BF33500E8C384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE1917C92C5BF33600E8C384 /* HuigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +77,31 @@
 		FE1917D32C5BF33600E8C384 /* HuigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1917D72C5BF33600E8C384 /* HuigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuigoUITests.swift; sourceTree = "<group>"; };
 		FE1917D92C5BF33600E8C384 /* HuigoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuigoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE1917EA2C5BF82A00E8C384 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
+		FEF3A6632C70E4B50039A87F /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FEF3A6642C70E4B50039A87F /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A6652C70E4B50039A87F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FEF3A6662C70E4B50039A87F /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A6672C70E4B50039A87F /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FEF3A6682C70E4B50039A87F /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A6692C70E4B50039A87F /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FEF3A66A2C70E4B50039A87F /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A66B2C70E4B50039A87F /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FEF3A66C2C70E4B50039A87F /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FEF3A66D2C70E4B50039A87F /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A66E2C70E4B50039A87F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FEF3A66F2C70E4B50039A87F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A6702C70E4B50039A87F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FEF3A6712C70E4B50039A87F /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FEF3A6722C70E4B50039A87F /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A6732C70E4B50039A87F /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FEF3A6742C70E4B50039A87F /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FEF3A6882C70E4EE0039A87F /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FEF3A68A2C70E5870039A87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FEF3A68C2C70E9DD0039A87F /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		FEF3A68F2C7138960039A87F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FEF3A6912C71392A0039A87F /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		FEF3A6962C713DFB0039A87F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1917EE2C5BF90F00E8C384 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +130,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE0A977E2C79E733000EEA7C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A977F2C79E74B000EEA7C /* SignInView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		FE0A97812C7A2188000EEA7C /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A97822C7A218F000EEA7C /* TextField */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FE0A97822C7A218F000EEA7C /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A97832C7A2197000EEA7C /* HuigoTextFieldModifier.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		FE1917B02C5BF33400E8C384 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +177,13 @@
 		FE1917BB2C5BF33400E8C384 /* Huigo */ = {
 			isa = PBXGroup;
 			children = (
+				FEF3A6932C713D950039A87F /* Coordinators */,
+				FEF3A68B2C70E9D80039A87F /* Helpers */,
+				FEF3A68A2C70E5870039A87F /* Info.plist */,
+				FE1917E82C5BF80500E8C384 /* Views */,
+				FE1917E72C5BF41700E8C384 /* Network */,
+				FE1917E62C5BF3C100E8C384 /* StyleGuide */,
 				FE1917BC2C5BF33400E8C384 /* HuigoApp.swift */,
-				FE1917BE2C5BF33400E8C384 /* ContentView.swift */,
 				FE1917C02C5BF33500E8C384 /* Assets.xcassets */,
 				FE1917C22C5BF33500E8C384 /* Preview Content */,
 			);
@@ -127,6 +215,110 @@
 			path = HuigoUITests;
 			sourceTree = "<group>";
 		};
+		FE1917E62C5BF3C100E8C384 /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3A6622C70E46D0039A87F /* Fonts */,
+			);
+			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		FE1917E72C5BF41700E8C384 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE1917E82C5BF80500E8C384 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3A6962C713DFB0039A87F /* MainView.swift */,
+				FEF3A6982C71E01E0039A87F /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE1917E92C5BF80A00E8C384 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FE1917BE2C5BF33400E8C384 /* OnboardingView.swift */,
+				FE1917EA2C5BF82A00E8C384 /* OnboardingStep.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FEF3A6622C70E46D0039A87F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3A6752C70E4B50039A87F /* Poppins */,
+				FEF3A6882C70E4EE0039A87F /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FEF3A6752C70E4B50039A87F /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3A6632C70E4B50039A87F /* Poppins-Black.ttf */,
+				FEF3A6642C70E4B50039A87F /* Poppins-BlackItalic.ttf */,
+				FEF3A6652C70E4B50039A87F /* Poppins-Bold.ttf */,
+				FEF3A6662C70E4B50039A87F /* Poppins-BoldItalic.ttf */,
+				FEF3A6672C70E4B50039A87F /* Poppins-ExtraBold.ttf */,
+				FEF3A6682C70E4B50039A87F /* Poppins-ExtraBoldItalic.ttf */,
+				FEF3A6692C70E4B50039A87F /* Poppins-ExtraLight.ttf */,
+				FEF3A66A2C70E4B50039A87F /* Poppins-ExtraLightItalic.ttf */,
+				FEF3A66B2C70E4B50039A87F /* Poppins-Italic.ttf */,
+				FEF3A66C2C70E4B50039A87F /* Poppins-Light.ttf */,
+				FEF3A66D2C70E4B50039A87F /* Poppins-LightItalic.ttf */,
+				FEF3A66E2C70E4B50039A87F /* Poppins-Medium.ttf */,
+				FEF3A66F2C70E4B50039A87F /* Poppins-MediumItalic.ttf */,
+				FEF3A6702C70E4B50039A87F /* Poppins-Regular.ttf */,
+				FEF3A6712C70E4B50039A87F /* Poppins-SemiBold.ttf */,
+				FEF3A6722C70E4B50039A87F /* Poppins-SemiBoldItalic.ttf */,
+				FEF3A6732C70E4B50039A87F /* Poppins-Thin.ttf */,
+				FEF3A6742C70E4B50039A87F /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		FEF3A68B2C70E9D80039A87F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A97812C7A2188000EEA7C /* Modifiers */,
+				FEF3A68C2C70E9DD0039A87F /* PageIndicator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FEF3A68E2C7138760039A87F /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3A68F2C7138960039A87F /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FEF3A6932C713D950039A87F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3A6912C71392A0039A87F /* AuthenticationCoordinator.swift */,
+				FE0A97852C7B9C8E000EEA7C /* AppRouter.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		FEF3A6982C71E01E0039A87F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A977E2C79E733000EEA7C /* SignIn */,
+				FE0A977C2C77AD78000EEA7C /* AuthenticationView.swift */,
+				FEF3A68E2C7138760039A87F /* Welcome */,
+				FE1917E92C5BF80A00E8C384 /* Onboarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +335,9 @@
 			dependencies = (
 			);
 			name = Huigo;
+			packageProductDependencies = (
+				FE1917ED2C5BF90F00E8C384 /* ComposableArchitecture */,
+			);
 			productName = Huigo;
 			productReference = FE1917B92C5BF33400E8C384 /* Huigo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +410,9 @@
 				Base,
 			);
 			mainGroup = FE1917B02C5BF33400E8C384;
+			packageReferences = (
+				FE1917EC2C5BF90F00E8C384 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = FE1917BA2C5BF33400E8C384 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +429,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF3A6862C70E4B50039A87F /* Poppins-Thin.ttf in Resources */,
+				FEF3A67B2C70E4B50039A87F /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FEF3A6812C70E4B50039A87F /* Poppins-Medium.ttf in Resources */,
+				FEF3A6802C70E4B50039A87F /* Poppins-LightItalic.ttf in Resources */,
+				FEF3A6772C70E4B50039A87F /* Poppins-BlackItalic.ttf in Resources */,
+				FEF3A6822C70E4B50039A87F /* Poppins-MediumItalic.ttf in Resources */,
+				FEF3A6852C70E4B50039A87F /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FEF3A67D2C70E4B50039A87F /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FEF3A6762C70E4B50039A87F /* Poppins-Black.ttf in Resources */,
+				FEF3A6832C70E4B50039A87F /* Poppins-Regular.ttf in Resources */,
+				FEF3A67C2C70E4B50039A87F /* Poppins-ExtraLight.ttf in Resources */,
+				FEF3A6782C70E4B50039A87F /* Poppins-Bold.ttf in Resources */,
+				FEF3A67A2C70E4B50039A87F /* Poppins-ExtraBold.ttf in Resources */,
+				FEF3A67F2C70E4B50039A87F /* Poppins-Light.ttf in Resources */,
+				FEF3A67E2C70E4B50039A87F /* Poppins-Italic.ttf in Resources */,
+				FEF3A6792C70E4B50039A87F /* Poppins-BoldItalic.ttf in Resources */,
 				FE1917C42C5BF33500E8C384 /* Preview Assets.xcassets in Resources */,
+				FEF3A6872C70E4B50039A87F /* Poppins-ThinItalic.ttf in Resources */,
 				FE1917C12C5BF33500E8C384 /* Assets.xcassets in Resources */,
+				FEF3A6842C70E4B50039A87F /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +473,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1917BF2C5BF33400E8C384 /* ContentView.swift in Sources */,
+				FEF3A6922C71392A0039A87F /* AuthenticationCoordinator.swift in Sources */,
+				FEF3A6972C713DFB0039A87F /* MainView.swift in Sources */,
+				FEF3A68D2C70E9DD0039A87F /* PageIndicator.swift in Sources */,
+				FEF3A6902C7138960039A87F /* WelcomeView.swift in Sources */,
+				FE0A97802C79E74B000EEA7C /* SignInView.swift in Sources */,
+				FEF3A6892C70E4EE0039A87F /* Font.swift in Sources */,
+				FE0A977D2C77AD78000EEA7C /* AuthenticationView.swift in Sources */,
+				FE1917BF2C5BF33400E8C384 /* OnboardingView.swift in Sources */,
+				FE0A97862C7B9C8E000EEA7C /* AppRouter.swift in Sources */,
+				FE1917EB2C5BF82A00E8C384 /* OnboardingStep.swift in Sources */,
+				FE0A97842C7A2197000EEA7C /* HuigoTextFieldModifier.swift in Sources */,
 				FE1917BD2C5BF33400E8C384 /* HuigoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -422,8 +648,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Huigo/Preview Content\"";
+				DEVELOPMENT_TEAM = MPX8X82EXW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Huigo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +678,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Huigo/Preview Content\"";
+				DEVELOPMENT_TEAM = MPX8X82EXW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Huigo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +812,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE1917EC2C5BF90F00E8C384 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE1917ED2C5BF90F00E8C384 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1917EC2C5BF90F00E8C384 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE1917B12C5BF33400E8C384 /* Project object */;
 }

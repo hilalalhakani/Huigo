@@ -11,7 +11,8 @@ import SwiftUI
 struct HuigoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
+
